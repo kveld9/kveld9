@@ -39,11 +39,11 @@
 
 #### 🔮 [kveld-morphe-patches](https://github.com/kveld9/kveld-morphe-patches) — Modular Android Bytecode & Native Patch Suite
 Suite modular de parches en Kotlin para el framework **Morphe**, enfocada en reversing, debloating estricto y desbloqueo de funciones:
-* **Gboard Lite (16 parches):** 
+* **Gboard Lite:** 
   * *Privacidad & Debloat:* Supresión de Google Primes, WorkManager, Phenotype, MDD background sync, telemetría de Tenor y forzado de Incognito Mode.
   * *UI & Features:* Inyección de tema nativo Pure Black AMOLED, trackpad de cursor 2D libre en la barra espaciadora y menú rediseñado Panel V2.
   * *Bypass:* Neutralización de validación interna de firma APK.
-* **Brave Browser (4 parches):**
+* **Brave Browser:**
   * *Defensa en profundidad contra telemetría:* Supresión en 4 capas (recursos XML, intercepción Smali/Bytecode, DNS a `0.0.0.0` y **parcheo binario ARM64 en `libchrome.so`** mediante branches/NOPs).
   * *Origin & Rendimiento:* Mocking de licencias/tokens a nivel local y neutralización de tareas de fondo en `JobScheduler` (Job ID 105).
 
